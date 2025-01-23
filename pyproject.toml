@@ -1,0 +1,15 @@
+[project]
+name = "white-extractor"
+description = "a simple white extractor node for comfyui."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["opencv-python>=4.6.0", "numpy>=1.21.0"]
+
+[project.urls]
+Repository = "https://github.com/duchamps0305/comfyui-white-extractor"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-white-extractor"
+Icon = ""
